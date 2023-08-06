@@ -3,6 +3,8 @@
 }
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 h3, li {
@@ -10,10 +12,9 @@ h3, li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: dotted;
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 100;
 }
 
 li, h3 {
@@ -28,8 +29,40 @@ li, h3 {
 }
 
 .header button {
-    flex-basis: 100px;
+    flex-basis: 50px;
     background-color: black;
     box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
 }
+
+.nav-bar ul, .footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+}
+
+.show-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.show-info .loc-card, .show-info .prev-shows-card {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: auto;
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+}
+
+
+

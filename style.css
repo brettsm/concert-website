@@ -68,6 +68,18 @@ li, h3 {
     margin-top: auto;
 }
 
+.home-img {
+    display: flex;
+    justify-content: center;
+}
+
+.home-img img{
+    flex-basis: 80vw;
+    width: 100vw;
+    align-self: center;
+    
+}
+
 
 
 

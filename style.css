@@ -5,6 +5,8 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 
 h3, li {
@@ -42,6 +44,7 @@ li, h3 {
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    padding-left: 0px;
 }
 
 .nav-bar ul li a {
@@ -56,13 +59,16 @@ li, h3 {
 .show-info .loc-card, .show-info .prev-shows-card {
     display: flex;
     justify-content: center;
+    border-color: white;
+    border-radius: 45;
+    border-style: double;
 }
 
 .footer {
     margin-top: auto;
-    margin-bottom: -10px;
-    padding-bottom: -10px;
 }
+
+
 
 
 
